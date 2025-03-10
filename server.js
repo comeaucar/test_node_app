@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3001; // Default port, configurable via your platform
+const PORT = 3000; // Default port, configurable via your platform
 
 app.get('/', (req, res) => {
   res.send('Hello, World! This is a simple Node.js app.');
